@@ -1,0 +1,74 @@
+[
+    {
+        "id": 101,
+      "name": "Python",
+      "cover_image": "https://i.ibb.co/M6kQHvL/hitesh-choudhary-D9-Zow2-REm8-U-unsplash.jpg",
+      "details": "Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used in web development, data science, and automation.",
+      "price": 1500,
+      "credit": 4
+    },
+    {
+        "id": 102,
+      "name": "JavaScript",
+      "cover_image": "https://i.ibb.co/z79mMw0/download.png",
+      "details": "JavaScript is a versatile scripting language used for web development. It allows for interactive web pages and is supported by all major browsers.",
+      "price": 2000,
+      "credit": 4
+    },
+    {
+        "id": 103,
+      "name": "Java",
+      "cover_image": "https://i.ibb.co/4NFpNZq/michiel-leunens-0w-IHsm2-1fc-unsplash.jpg",
+      "details": "Java is a popular, object-oriented programming language used for building desktop, web, and mobile applications. It is known for its platform independence.",
+      "price": 2500,
+      "credit": 4
+    },
+    {
+        "id": 104,
+      "name": "C++",
+      "cover_image": "https://i.ibb.co/2SL312D/c.png",
+      "details": "C++ is an extension of the C programming language and is widely used for system programming, game development, and high-performance applications.",
+      "price": 3500,
+      "credit": 4
+    },
+    {
+        "id": 105,
+      "name": "Ruby",
+      "cover_image": "https://i.ibb.co/8XT7D8k/ruby-lang-ar21.webp",
+      "details": "Ruby is a dynamic, object-oriented programming language known for its simplicity and productivity. It's often used for web development with Ruby on Rails.",
+      "price": 2800,
+      "credit": 4
+    },
+    {
+        "id": 106,
+      "name": "Go",
+      "cover_image": "https://i.ibb.co/TtMHt7k/go.png",
+      "details": "Go, also known as Golang, is a statically typed, compiled language developed by Google. It's known for its simplicity, speed, and strong support for concurrency.",
+      "price": 4200,
+      "credit": 4
+    },
+    {
+        "id": 107,
+      "name": "Rust",
+      "cover_image": "https://i.ibb.co/YQ5F38b/rust-social-wide.jpg",
+      "details": "Rust is a systems programming language that focuses on safety and performance. It's often used for building low-level systems and high-performance software.",
+      "price": 3800,
+      "credit": 4
+    },
+    {
+        "id": 108,
+      "name": "Swift",
+      "cover_image": "https://i.ibb.co/PMvj6Nz/swift.webp",
+      "details": "Swift is a powerful and intuitive programming language developed by Apple. It's commonly used for iOS, macOS, watchOS, and tvOS app development.",
+      "price": 2900,
+      "credit": 4
+    },
+    {
+        "id": 109,
+      "name": "Kotlin",
+      "cover_image": "https://i.ibb.co/0qj3gfv/kotlin.png",
+      "details": "Kotlin is a statically typed language that runs on the Java Virtual Machine (JVM). It's often used for Android app development as a more modern alternative to Java.",
+      "price": 3200,
+      "credit": 4
+    }
+  ]
