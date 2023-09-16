@@ -1,21 +1,16 @@
 import PropTypes from 'prop-types';
 export const SideCard = ({card}) => {
-  console.log(card);
-  const {name,credit} = card;
+  const {name} = card;
   return (
     <div>
       <div className="mb-4">
-            <ul>
+            <ol className='list-decimal'>
             <li>{name}</li>
-            </ul>
+            </ol>
           </div>
-          <hr className="w-3/4"/>
-          <p className="font-medium">Total Credit Hour : {credit}</p>
-          <hr className="w-3/4"/>
-          <p className="font-semibold">Total Price : 48000 USD</p>
     </div>
   );
 };
-SideCard.PropTypes =  {
+SideCard.propTypes =  {
   cards : PropTypes.object
 }

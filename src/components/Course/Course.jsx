@@ -30,7 +30,7 @@ export const Course = ({course,handleClick}) => {
     </div>
   )
 }
-Course.PropTypes =  {
+Course.propTypes =  {
   handleClick : PropTypes.func,
   course : PropTypes.object
 }

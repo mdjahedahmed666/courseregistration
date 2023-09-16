@@ -18,6 +18,6 @@ export const Courses = ({handleClick}) => {
     </div>
   )
 }
-Courses.PropTypes =  {
+Courses.propTypes =  {
   handleClick : PropTypes.func
 }
