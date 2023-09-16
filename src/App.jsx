@@ -8,33 +8,33 @@ function App() {
   const [totalCredit, setTotalCredit] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
   const [toast, setToast] = useState(0);
-  // const [remainingCredit, setRemainingCredit] = useState(20);
+  const [remainingCredit, setRemainingCredit] = useState(20);
   
   
   const handleClick = (course) => {
     const addedName = cards.find((c)=> c.name ===course.name);
     if(!addedName){
-      // const newTotalCredit = totalCredit+course.credit;
-      // const newRemainingCredit = remainingCredit-course.credit;
-      // if(newTotalCredit<=20){
-        // if(newRemainingCredit>=0){
-        //   const newCard = [...cards, course];
-        // setCards(newCard);
-        // setTotalCredit(newTotalCredit);  
-        // setTotalPrice(totalPrice+course.price);
-        // setRemainingCredit(newRemainingCredit);
-        // }else{
-        //   setToast('Remaining Credit cant become less than 0');
-        // }
+      const newTotalCredit = totalCredit+course.credit;
+      const newRemainingCredit = remainingCredit-course.credit;
+      if(newTotalCredit<=20){
+        if(newRemainingCredit>=0){
           const newCard = [...cards, course];
         setCards(newCard);
-        // setTotalCredit(newTotalCredit);  
+        setTotalCredit(newTotalCredit);  
         setTotalPrice(totalPrice+course.price);
-        // setRemainingCredit(newRemainingCredit);
+        setRemainingCredit(newRemainingCredit);
+        }else{
+          setToast('Remaining Credit cant become less than 0');
+        }
+          const newCard = [...cards, course];
+        setCards(newCard);
+        setTotalCredit(newTotalCredit);  
+        setTotalPrice(totalPrice+course.price);
+        setRemainingCredit(newRemainingCredit);
         
-      // }else{
-      //   setToast('You can not add more than 20 hr of credit');
-      // }
+      }else{
+        setToast('You can not add more than 20 hr of credit');
+      }
     }else{
 setToast('This course has already been added');
     }
