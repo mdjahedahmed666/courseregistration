@@ -15,4 +15,11 @@ feature 1: Course Selection :When select a course displaying course name price a
 feature 2: Remaining credit calculation
 feature 3: Toast notification 
 
-q2:
+q2:Discuss how you managed the state in your assignment project.
+Ans:
+For the Course selection and displaye the course name price and credit used 'useState' hook for state management. 
+cards state for to keep track for selected course.
+totalCredit state to keep track of the tota hours of selected courses.
+totalPrice state to keep track of the total price of selected courses of selected courses.
+For remaining credit used remainingCredit state to keep track of the remaining credit of courses.
+toast state is used for displaying message to the user.
