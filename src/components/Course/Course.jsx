@@ -2,7 +2,7 @@ import { BsCurrencyDollar } from 'react-icons/bs';
 import { BsBook } from 'react-icons/bs';
 import PropTypes from 'prop-types';
 export const Course = ({course,handleClick}) => {
-    const {id,name,cover_image,details,price,credit} = course;
+    const {name,cover_image,details,price,credit} = course;
   return (
     <div>
         <div className="card bg-base-100 shadow-xl h-[450px] mb-3">
@@ -10,8 +10,8 @@ export const Course = ({course,handleClick}) => {
     <img src={cover_image} alt="Shoes" className="rounded-xl" />
   </figure>
   <div className="card-body">
-    <h2 className="text-left">{name}</h2>
-    <p className="text-left">{details}</p>
+    <h2 className="text-left text-[#1C1B1B] text-lg font-semibold">{name}</h2>
+    <p className="text-left text-sm">{details}</p>
     <div className='flex items-center justify-between'>
       <div className='flex items-center gap-1'>
       <BsCurrencyDollar/>

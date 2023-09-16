@@ -7,17 +7,17 @@ export const SideCards = ({cards,totalCredit,totalPrice,remainingCredit}) => {
         <div className="card-body">
           <h2 className="text-lg font-bold text-[#2F80ED]">Credit Hour Remaining {remainingCredit}hr</h2>
           <hr className="w-3/4"/>
-          <h2 className="text-xl font-bold">Course Name</h2>
+          <h2 className="text-xl font-bold mb-2">Course Name</h2>
           <ol>
           {cards.map((card,index) =>(<li key={index}>
             {index+1}. {card.name}
             </li>))}
             </ol>
           <hr className="w-3/4"/> 
-          <p className="font-medium">Total Credit Hour : {totalCredit}hr</p>
+          <p className="font-medium text-lg">Total Credit Hour : {totalCredit}hr</p>
           {/* {cards.map(card =><TotalHr key={card.id} card={card}/>)} */}
           <hr className="w-3/4"/>
-          <p className="font-semibold">Total Price : {totalPrice}USD</p>
+          <p className="font-medium text-lg">Total Price : {totalPrice}USD</p>
         </div>
         </div>
        
@@ -27,5 +27,6 @@ export const SideCards = ({cards,totalCredit,totalPrice,remainingCredit}) => {
 SideCards.propTypes =  {
     cards : PropTypes.array,
     totalCredit : PropTypes.number,
-    totalPrice : PropTypes.number
+    totalPrice : PropTypes.number,
+    remainingCredit : PropTypes.number
   }
